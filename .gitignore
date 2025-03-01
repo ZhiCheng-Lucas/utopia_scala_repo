@@ -1,5 +1,75 @@
+# Scala/SBT build files
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target/
+project/project/
+.bsp/
+.history
+.cache
+.lib/
+dist/
 *.class
 *.log
+
+# sbt-specific
+.cache/
+.history/
+.sbt-scripted/
+.bloop/
+.metals/
+
+# Spark specific
+metastore_db/
+derby.log
+spark-warehouse/
+checkpoint/
+warehouse/
+
+# IDE specific files
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.vscode/
+.scala_dependencies
+.worksheet
+.bloop/
+metals.sbt
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Application specific
+*.parquet
+*.csv
+/output*/
+/logs/
+/temp/
+/tmp/
+/checkpoint/
+
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+*.jks
+*.p12
+*.pfx
+*.keystore
+*.truststore
+credentials.conf
+application-secret.conf
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
