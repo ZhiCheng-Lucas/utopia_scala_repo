@@ -1,0 +1,38 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
+  <diagram name="Page-1" id="Qn3nNOn12KLk9LeHQmyj">
+    <mxGraphModel dx="1456" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.9999999999998" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-41" value="Python Script to generate sample data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-42" value="&lt;div align=&quot;left&quot;&gt;Generates:&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1. Dataset A: camera_detection_events.parquet&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Dataset B: geographical_locations.parquet&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Expected output: human_readable_rankings.parquet&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="220" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.9999999999998" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-44" value="&lt;div&gt;Scala&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-45" value="&lt;div&gt;Input: Dataset A and Dataset B&lt;/div&gt;&lt;div&gt;Output: fat JAR file&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="390" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-46" value="Spark" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-47" value="&lt;div align=&quot;left&quot;&gt;Input: JAR file&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Output: parquet file&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="620" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
