@@ -225,7 +225,6 @@ spark-submit \
 Here's an example command for running the application with local data:
 
 ```bash
-# In the utopia_spark_scala folder, run:
 
 /home/laptop-linux-26feb/Desktop/spark-3.5.4-bin-hadoop3-scala2.13/bin/spark-submit \
  --class com.utopia.analytics.CameraDetectionAnalytics \
@@ -233,7 +232,7 @@ Here's an example command for running the application with local data:
  target/scala-2.13/camera-detection-analytics-1.0.0.jar \
 /home/laptop-linux-26feb/Desktop/utopia_spark_scala/src/main/resources/camera_detection_events.parquet \
  /home/laptop-linux-26feb/Desktop/utopia_spark_scala/src/main/resources/geographical_locations.parquet \
-/home/laptop-linux-26feb/Desktop/utopia_spark_Generate_SampleData/generate_sample_data/output2 \
+/home/laptop-linux-26feb/Desktop/utopia_scala_repo/output \
 10
 
 
