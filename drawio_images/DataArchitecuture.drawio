@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.16">
+  <diagram name="Page-1" id="Qn3nNOn12KLk9LeHQmyj">
+    <mxGraphModel dx="2093" dy="1355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="449.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-14" value="Edge Cameras" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="449.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-16" value="&lt;div&gt;Google &lt;br&gt;&lt;/div&gt;&lt;div&gt;Pub/Sub&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-18" value="Google Cloud Dataflow" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-23" value="&lt;div&gt;Cloud Storage&lt;/div&gt;&lt;div&gt;(Data Lake)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-24" value="&lt;div&gt;Google Cloud Bigtable&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-26" value="BigQuery" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CsIFfV0mn7zYEhRsNtBo-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-29" value="Dashboard" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsIFfV0mn7zYEhRsNtBo-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="730" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
