@@ -5,8 +5,7 @@ import org.apache.spark.sql.{SparkSession, Row}
 import org.apache.spark.sql.types._
 import org.apache.spark.rdd.RDD
 
-/** Unit tests for CameraDetectionAnalytics Using simplified approach with
-  * independent tests
+/** Unit tests for CameraDetectionAnalytics
   */
 class CameraDetectionAnalyticsTest extends AnyFunSuite {
 
@@ -23,7 +22,7 @@ class CameraDetectionAnalyticsTest extends AnyFunSuite {
     try {
       import spark.implicits._
 
-      // Create a simple DataFrame with minimal data
+      // Create a simple DataFrame
       val df = Seq(
         (1L, 101L, 1001L, "person", 1600000000L)
       ).toDF(
