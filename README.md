@@ -179,6 +179,8 @@ Since the actual datasets are not available, sample test data has been generated
 
 To test the optimization requirement for handling data skew, the location with ID 42 will have a significantly higher number of detections than other locations (approximately 5x the average). This represents a high-traffic area with many more detection events.
 
+- Data Skew code snippet: [`./data_skew.md`](./data_skew.md)
+
 ## Runtime Configuration
 
 The main class of the application provides flexibility to configure the following parameters at runtime:
@@ -247,5 +249,5 @@ This will process the detection events and locations, calculating the top 10 mos
 
 ## Testing
 
-For more information about the testing portion, please refer to
+For testing details, please refer to:
 [`./src/test/scala/com/utopia/analytics/test_documentaion.md`](./src/test/scala/com/utopia/analytics/test_documentaion.md)
