@@ -4,11 +4,18 @@ version := "1.0.0"
 scalaVersion := "2.13.16"
 val sparkVersion = "3.5.4"
 
+// JVM options to open required modules for Spark
+Test / fork := true
+Test / javaOptions ++= Seq(
+  "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
+  "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED",
+  "--add-opens=java.base/java.nio=ALL-UNNAMED"
+)
+
 // ScalaStyle configuration
 lazy val compileScalastyle = taskKey[Unit]("compileScalastyle")
 compileScalastyle := scalastyle.in(Compile).toTask("").value
 (Compile / compile) := ((Compile / compile) dependsOn compileScalastyle).value
-
 lazy val testScalastyle = taskKey[Unit]("testScalastyle")
 testScalastyle := scalastyle.in(Test).toTask("").value
 (Test / test) := ((Test / test) dependsOn testScalastyle).value
