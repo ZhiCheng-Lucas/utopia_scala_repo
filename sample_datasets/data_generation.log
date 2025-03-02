@@ -1,0 +1,264 @@
+2025-03-02 15:09:06,865 - __main__ - INFO - ================================================================================
+2025-03-02 15:09:06,865 - __main__ - INFO - CAMERA DETECTION DATA GENERATION PROCESS
+2025-03-02 15:09:06,865 - __main__ - INFO - ================================================================================
+2025-03-02 15:09:06,865 - __main__ - INFO - Configuration:
+2025-03-02 15:09:06,865 - __main__ - INFO -   Number of locations: 50
+2025-03-02 15:09:06,865 - __main__ - INFO -   Dataset B rows: 10000
+2025-03-02 15:09:06,865 - __main__ - INFO -   Number of detectable items: 100
+2025-03-02 15:09:06,865 - __main__ - INFO -   Number of detection events: 1000000
+2025-03-02 15:09:06,865 - __main__ - INFO -   Rank-changing locations: [10, 20]
+2025-03-02 15:09:06,866 - __main__ - INFO -   Data skew location: 42 (factor: 5x)
+2025-03-02 15:09:06,866 - __main__ - INFO -   Output directory: /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output
+2025-03-02 15:09:06,866 - __main__ - INFO -   Log file: /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/data_generation.log
+2025-03-02 15:09:06,866 - __main__ - INFO - Starting data generation process
+2025-03-02 15:09:06,866 - __main__ - INFO - Generating Dataset B: Geographical Locations
+2025-03-02 15:09:06,895 - __main__ - INFO - Saved 10000 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/geographical_locations.parquet
+2025-03-02 15:09:06,896 - __main__ - INFO - Generating Dataset A: Camera Detection Events (without duplicates)
+2025-03-02 15:09:40,937 - __main__ - INFO - Calculating rankings (counting duplicates)
+2025-03-02 15:09:41,332 - __main__ - INFO - Saved 500 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/pre_duplication_rankings.parquet
+2025-03-02 15:09:41,332 - __main__ - INFO - Adding duplications to Dataset A
+2025-03-02 15:09:41,366 - __main__ - INFO - Location 1 - Before duplication:
+2025-03-02 15:09:41,366 - __main__ - INFO -   Most common: 'person' (7699 occurrences)
+2025-03-02 15:09:41,366 - __main__ - INFO -   Second most: 'car' (2762 occurrences)
+2025-03-02 15:09:41,366 - __main__ - INFO -   Adding 5 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,435 - __main__ - INFO - Location 2 - Before duplication:
+2025-03-02 15:09:41,435 - __main__ - INFO -   Most common: 'person' (7701 occurrences)
+2025-03-02 15:09:41,435 - __main__ - INFO -   Second most: 'car' (2643 occurrences)
+2025-03-02 15:09:41,435 - __main__ - INFO -   Adding 5 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,497 - __main__ - INFO - Location 3 - Before duplication:
+2025-03-02 15:09:41,497 - __main__ - INFO -   Most common: 'person' (7677 occurrences)
+2025-03-02 15:09:41,497 - __main__ - INFO -   Second most: 'car' (2699 occurrences)
+2025-03-02 15:09:41,497 - __main__ - INFO -   Adding 13 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,555 - __main__ - INFO - Location 4 - Before duplication:
+2025-03-02 15:09:41,555 - __main__ - INFO -   Most common: 'person' (7631 occurrences)
+2025-03-02 15:09:41,555 - __main__ - INFO -   Second most: 'car' (2750 occurrences)
+2025-03-02 15:09:41,555 - __main__ - INFO -   Adding 15 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,634 - __main__ - INFO - Location 5 - Before duplication:
+2025-03-02 15:09:41,634 - __main__ - INFO -   Most common: 'person' (7630 occurrences)
+2025-03-02 15:09:41,634 - __main__ - INFO -   Second most: 'car' (2724 occurrences)
+2025-03-02 15:09:41,634 - __main__ - INFO -   Adding 15 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,704 - __main__ - INFO - Location 6 - Before duplication:
+2025-03-02 15:09:41,704 - __main__ - INFO -   Most common: 'person' (7632 occurrences)
+2025-03-02 15:09:41,704 - __main__ - INFO -   Second most: 'car' (2797 occurrences)
+2025-03-02 15:09:41,704 - __main__ - INFO -   Adding 10 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,756 - __main__ - INFO - Location 7 - Before duplication:
+2025-03-02 15:09:41,756 - __main__ - INFO -   Most common: 'person' (7767 occurrences)
+2025-03-02 15:09:41,756 - __main__ - INFO -   Second most: 'car' (2693 occurrences)
+2025-03-02 15:09:41,756 - __main__ - INFO -   Adding 17 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,817 - __main__ - INFO - Location 8 - Before duplication:
+2025-03-02 15:09:41,817 - __main__ - INFO -   Most common: 'person' (7504 occurrences)
+2025-03-02 15:09:41,817 - __main__ - INFO -   Second most: 'car' (2760 occurrences)
+2025-03-02 15:09:41,817 - __main__ - INFO -   Adding 6 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,872 - __main__ - INFO - Location 9 - Before duplication:
+2025-03-02 15:09:41,872 - __main__ - INFO -   Most common: 'person' (7668 occurrences)
+2025-03-02 15:09:41,872 - __main__ - INFO -   Second most: 'car' (2721 occurrences)
+2025-03-02 15:09:41,872 - __main__ - INFO -   Adding 7 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:41,928 - __main__ - INFO - Location 10 - Before duplication:
+2025-03-02 15:09:41,928 - __main__ - INFO -   Most common: 'person' (7704 occurrences)
+2025-03-02 15:09:41,928 - __main__ - INFO -   Second most: 'car' (2655 occurrences)
+2025-03-02 15:09:41,928 - __main__ - INFO -   Adding 5149 duplicates of 'car' to make it outrank 'person'
+2025-03-02 15:09:43,660 - __main__ - INFO -   After duplication (with duplicates counted):
+2025-03-02 15:09:43,660 - __main__ - INFO -     'car': 7804 occurrences
+2025-03-02 15:09:43,660 - __main__ - INFO -     'person': 7704 occurrences
+2025-03-02 15:09:43,660 - __main__ - INFO -     Top item with duplicates counted: 'car'
+2025-03-02 15:09:43,667 - __main__ - INFO - Location 11 - Before duplication:
+2025-03-02 15:09:43,667 - __main__ - INFO -   Most common: 'person' (7654 occurrences)
+2025-03-02 15:09:43,667 - __main__ - INFO -   Second most: 'car' (2647 occurrences)
+2025-03-02 15:09:43,667 - __main__ - INFO -   Adding 6 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:43,741 - __main__ - INFO - Location 12 - Before duplication:
+2025-03-02 15:09:43,741 - __main__ - INFO -   Most common: 'person' (7648 occurrences)
+2025-03-02 15:09:43,741 - __main__ - INFO -   Second most: 'car' (2732 occurrences)
+2025-03-02 15:09:43,741 - __main__ - INFO -   Adding 16 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:43,806 - __main__ - INFO - Location 13 - Before duplication:
+2025-03-02 15:09:43,807 - __main__ - INFO -   Most common: 'person' (7634 occurrences)
+2025-03-02 15:09:43,807 - __main__ - INFO -   Second most: 'car' (2744 occurrences)
+2025-03-02 15:09:43,807 - __main__ - INFO -   Adding 10 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:43,866 - __main__ - INFO - Location 14 - Before duplication:
+2025-03-02 15:09:43,866 - __main__ - INFO -   Most common: 'person' (7706 occurrences)
+2025-03-02 15:09:43,866 - __main__ - INFO -   Second most: 'car' (2691 occurrences)
+2025-03-02 15:09:43,866 - __main__ - INFO -   Adding 7 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:43,921 - __main__ - INFO - Location 15 - Before duplication:
+2025-03-02 15:09:43,921 - __main__ - INFO -   Most common: 'person' (7541 occurrences)
+2025-03-02 15:09:43,921 - __main__ - INFO -   Second most: 'car' (2741 occurrences)
+2025-03-02 15:09:43,921 - __main__ - INFO -   Adding 10 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:43,979 - __main__ - INFO - Location 16 - Before duplication:
+2025-03-02 15:09:43,979 - __main__ - INFO -   Most common: 'person' (7700 occurrences)
+2025-03-02 15:09:43,979 - __main__ - INFO -   Second most: 'car' (2654 occurrences)
+2025-03-02 15:09:43,979 - __main__ - INFO -   Adding 19 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:44,039 - __main__ - INFO - Location 17 - Before duplication:
+2025-03-02 15:09:44,039 - __main__ - INFO -   Most common: 'person' (7714 occurrences)
+2025-03-02 15:09:44,039 - __main__ - INFO -   Second most: 'car' (2724 occurrences)
+2025-03-02 15:09:44,039 - __main__ - INFO -   Adding 17 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:44,100 - __main__ - INFO - Location 18 - Before duplication:
+2025-03-02 15:09:44,100 - __main__ - INFO -   Most common: 'person' (7677 occurrences)
+2025-03-02 15:09:44,100 - __main__ - INFO -   Second most: 'car' (2678 occurrences)
+2025-03-02 15:09:44,100 - __main__ - INFO -   Adding 10 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:44,158 - __main__ - INFO - Location 19 - Before duplication:
+2025-03-02 15:09:44,158 - __main__ - INFO -   Most common: 'person' (7724 occurrences)
+2025-03-02 15:09:44,158 - __main__ - INFO -   Second most: 'car' (2693 occurrences)
+2025-03-02 15:09:44,158 - __main__ - INFO -   Adding 8 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:44,215 - __main__ - INFO - Location 20 - Before duplication:
+2025-03-02 15:09:44,215 - __main__ - INFO -   Most common: 'person' (7688 occurrences)
+2025-03-02 15:09:44,215 - __main__ - INFO -   Second most: 'car' (2684 occurrences)
+2025-03-02 15:09:44,215 - __main__ - INFO -   Adding 5104 duplicates of 'car' to make it outrank 'person'
+2025-03-02 15:09:45,892 - __main__ - INFO -   After duplication (with duplicates counted):
+2025-03-02 15:09:45,892 - __main__ - INFO -     'car': 7788 occurrences
+2025-03-02 15:09:45,892 - __main__ - INFO -     'person': 7688 occurrences
+2025-03-02 15:09:45,892 - __main__ - INFO -     Top item with duplicates counted: 'car'
+2025-03-02 15:09:45,899 - __main__ - INFO - Location 21 - Before duplication:
+2025-03-02 15:09:45,899 - __main__ - INFO -   Most common: 'person' (7773 occurrences)
+2025-03-02 15:09:45,899 - __main__ - INFO -   Second most: 'car' (2685 occurrences)
+2025-03-02 15:09:45,899 - __main__ - INFO -   Adding 7 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:45,972 - __main__ - INFO - Location 22 - Before duplication:
+2025-03-02 15:09:45,972 - __main__ - INFO -   Most common: 'person' (7657 occurrences)
+2025-03-02 15:09:45,972 - __main__ - INFO -   Second most: 'car' (2731 occurrences)
+2025-03-02 15:09:45,972 - __main__ - INFO -   Adding 20 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,033 - __main__ - INFO - Location 23 - Before duplication:
+2025-03-02 15:09:46,033 - __main__ - INFO -   Most common: 'person' (7624 occurrences)
+2025-03-02 15:09:46,033 - __main__ - INFO -   Second most: 'car' (2735 occurrences)
+2025-03-02 15:09:46,033 - __main__ - INFO -   Adding 11 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,099 - __main__ - INFO - Location 24 - Before duplication:
+2025-03-02 15:09:46,100 - __main__ - INFO -   Most common: 'person' (7691 occurrences)
+2025-03-02 15:09:46,100 - __main__ - INFO -   Second most: 'car' (2760 occurrences)
+2025-03-02 15:09:46,100 - __main__ - INFO -   Adding 12 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,159 - __main__ - INFO - Location 25 - Before duplication:
+2025-03-02 15:09:46,159 - __main__ - INFO -   Most common: 'person' (7641 occurrences)
+2025-03-02 15:09:46,159 - __main__ - INFO -   Second most: 'car' (2712 occurrences)
+2025-03-02 15:09:46,159 - __main__ - INFO -   Adding 12 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,216 - __main__ - INFO - Location 26 - Before duplication:
+2025-03-02 15:09:46,217 - __main__ - INFO -   Most common: 'person' (7560 occurrences)
+2025-03-02 15:09:46,217 - __main__ - INFO -   Second most: 'car' (2690 occurrences)
+2025-03-02 15:09:46,217 - __main__ - INFO -   Adding 15 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,294 - __main__ - INFO - Location 27 - Before duplication:
+2025-03-02 15:09:46,294 - __main__ - INFO -   Most common: 'person' (7625 occurrences)
+2025-03-02 15:09:46,294 - __main__ - INFO -   Second most: 'car' (2772 occurrences)
+2025-03-02 15:09:46,294 - __main__ - INFO -   Adding 13 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,350 - __main__ - INFO - Location 28 - Before duplication:
+2025-03-02 15:09:46,351 - __main__ - INFO -   Most common: 'person' (7786 occurrences)
+2025-03-02 15:09:46,351 - __main__ - INFO -   Second most: 'car' (2728 occurrences)
+2025-03-02 15:09:46,351 - __main__ - INFO -   Adding 6 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,405 - __main__ - INFO - Location 29 - Before duplication:
+2025-03-02 15:09:46,405 - __main__ - INFO -   Most common: 'person' (7574 occurrences)
+2025-03-02 15:09:46,406 - __main__ - INFO -   Second most: 'car' (2762 occurrences)
+2025-03-02 15:09:46,406 - __main__ - INFO -   Adding 20 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,463 - __main__ - INFO - Location 30 - Before duplication:
+2025-03-02 15:09:46,463 - __main__ - INFO -   Most common: 'person' (7585 occurrences)
+2025-03-02 15:09:46,463 - __main__ - INFO -   Second most: 'car' (2812 occurrences)
+2025-03-02 15:09:46,463 - __main__ - INFO -   Adding 6 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,519 - __main__ - INFO - Location 31 - Before duplication:
+2025-03-02 15:09:46,519 - __main__ - INFO -   Most common: 'person' (7784 occurrences)
+2025-03-02 15:09:46,519 - __main__ - INFO -   Second most: 'car' (2713 occurrences)
+2025-03-02 15:09:46,519 - __main__ - INFO -   Adding 8 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,575 - __main__ - INFO - Location 32 - Before duplication:
+2025-03-02 15:09:46,575 - __main__ - INFO -   Most common: 'person' (7774 occurrences)
+2025-03-02 15:09:46,575 - __main__ - INFO -   Second most: 'car' (2626 occurrences)
+2025-03-02 15:09:46,575 - __main__ - INFO -   Adding 7 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,631 - __main__ - INFO - Location 33 - Before duplication:
+2025-03-02 15:09:46,631 - __main__ - INFO -   Most common: 'person' (7707 occurrences)
+2025-03-02 15:09:46,631 - __main__ - INFO -   Second most: 'car' (2745 occurrences)
+2025-03-02 15:09:46,631 - __main__ - INFO -   Adding 19 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,691 - __main__ - INFO - Location 34 - Before duplication:
+2025-03-02 15:09:46,692 - __main__ - INFO -   Most common: 'person' (7740 occurrences)
+2025-03-02 15:09:46,692 - __main__ - INFO -   Second most: 'car' (2701 occurrences)
+2025-03-02 15:09:46,692 - __main__ - INFO -   Adding 11 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,762 - __main__ - INFO - Location 35 - Before duplication:
+2025-03-02 15:09:46,762 - __main__ - INFO -   Most common: 'person' (7665 occurrences)
+2025-03-02 15:09:46,762 - __main__ - INFO -   Second most: 'car' (2739 occurrences)
+2025-03-02 15:09:46,762 - __main__ - INFO -   Adding 19 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,822 - __main__ - INFO - Location 36 - Before duplication:
+2025-03-02 15:09:46,823 - __main__ - INFO -   Most common: 'person' (7653 occurrences)
+2025-03-02 15:09:46,823 - __main__ - INFO -   Second most: 'car' (2733 occurrences)
+2025-03-02 15:09:46,823 - __main__ - INFO -   Adding 11 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,880 - __main__ - INFO - Location 37 - Before duplication:
+2025-03-02 15:09:46,880 - __main__ - INFO -   Most common: 'person' (7723 occurrences)
+2025-03-02 15:09:46,880 - __main__ - INFO -   Second most: 'car' (2611 occurrences)
+2025-03-02 15:09:46,880 - __main__ - INFO -   Adding 19 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:46,942 - __main__ - INFO - Location 38 - Before duplication:
+2025-03-02 15:09:46,942 - __main__ - INFO -   Most common: 'person' (7520 occurrences)
+2025-03-02 15:09:46,942 - __main__ - INFO -   Second most: 'car' (2774 occurrences)
+2025-03-02 15:09:46,942 - __main__ - INFO -   Adding 7 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,002 - __main__ - INFO - Location 39 - Before duplication:
+2025-03-02 15:09:47,002 - __main__ - INFO -   Most common: 'person' (7648 occurrences)
+2025-03-02 15:09:47,002 - __main__ - INFO -   Second most: 'car' (2744 occurrences)
+2025-03-02 15:09:47,002 - __main__ - INFO -   Adding 12 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,059 - __main__ - INFO - Location 40 - Before duplication:
+2025-03-02 15:09:47,059 - __main__ - INFO -   Most common: 'person' (7837 occurrences)
+2025-03-02 15:09:47,059 - __main__ - INFO -   Second most: 'car' (2698 occurrences)
+2025-03-02 15:09:47,059 - __main__ - INFO -   Adding 18 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,118 - __main__ - INFO - Location 41 - Before duplication:
+2025-03-02 15:09:47,118 - __main__ - INFO -   Most common: 'person' (7630 occurrences)
+2025-03-02 15:09:47,118 - __main__ - INFO -   Second most: 'car' (2723 occurrences)
+2025-03-02 15:09:47,118 - __main__ - INFO -   Adding 13 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,197 - __main__ - INFO - Location 42 - Before duplication:
+2025-03-02 15:09:47,197 - __main__ - INFO -   Most common: 'person' (38252 occurrences)
+2025-03-02 15:09:47,197 - __main__ - INFO -   Second most: 'car' (13456 occurrences)
+2025-03-02 15:09:47,197 - __main__ - INFO -   Adding 12 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,272 - __main__ - INFO - Location 43 - Before duplication:
+2025-03-02 15:09:47,272 - __main__ - INFO -   Most common: 'person' (7618 occurrences)
+2025-03-02 15:09:47,272 - __main__ - INFO -   Second most: 'car' (2615 occurrences)
+2025-03-02 15:09:47,273 - __main__ - INFO -   Adding 19 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,333 - __main__ - INFO - Location 44 - Before duplication:
+2025-03-02 15:09:47,333 - __main__ - INFO -   Most common: 'person' (7675 occurrences)
+2025-03-02 15:09:47,333 - __main__ - INFO -   Second most: 'car' (2709 occurrences)
+2025-03-02 15:09:47,333 - __main__ - INFO -   Adding 13 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,391 - __main__ - INFO - Location 45 - Before duplication:
+2025-03-02 15:09:47,391 - __main__ - INFO -   Most common: 'person' (7599 occurrences)
+2025-03-02 15:09:47,391 - __main__ - INFO -   Second most: 'car' (2623 occurrences)
+2025-03-02 15:09:47,391 - __main__ - INFO -   Adding 9 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,449 - __main__ - INFO - Location 46 - Before duplication:
+2025-03-02 15:09:47,449 - __main__ - INFO -   Most common: 'person' (7711 occurrences)
+2025-03-02 15:09:47,449 - __main__ - INFO -   Second most: 'car' (2769 occurrences)
+2025-03-02 15:09:47,449 - __main__ - INFO -   Adding 5 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,513 - __main__ - INFO - Location 47 - Before duplication:
+2025-03-02 15:09:47,513 - __main__ - INFO -   Most common: 'person' (7689 occurrences)
+2025-03-02 15:09:47,513 - __main__ - INFO -   Second most: 'car' (2803 occurrences)
+2025-03-02 15:09:47,513 - __main__ - INFO -   Adding 15 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,573 - __main__ - INFO - Location 48 - Before duplication:
+2025-03-02 15:09:47,574 - __main__ - INFO -   Most common: 'person' (7715 occurrences)
+2025-03-02 15:09:47,574 - __main__ - INFO -   Second most: 'car' (2728 occurrences)
+2025-03-02 15:09:47,574 - __main__ - INFO -   Adding 9 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,632 - __main__ - INFO - Location 49 - Before duplication:
+2025-03-02 15:09:47,632 - __main__ - INFO -   Most common: 'person' (7644 occurrences)
+2025-03-02 15:09:47,632 - __main__ - INFO -   Second most: 'car' (2710 occurrences)
+2025-03-02 15:09:47,632 - __main__ - INFO -   Adding 6 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:47,686 - __main__ - INFO - Location 50 - Before duplication:
+2025-03-02 15:09:47,686 - __main__ - INFO -   Most common: 'person' (7632 occurrences)
+2025-03-02 15:09:47,686 - __main__ - INFO -   Second most: 'car' (2650 occurrences)
+2025-03-02 15:09:47,686 - __main__ - INFO -   Adding 10 duplicates of 'person' (won't change ranking)
+2025-03-02 15:09:48,496 - __main__ - INFO - Saved 1010787 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/camera_detection_events.parquet
+2025-03-02 15:09:48,511 - __main__ - INFO - Calculating rankings (counting duplicates)
+2025-03-02 15:09:48,894 - __main__ - INFO - Saved 500 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/post_duplication_rankings_duplications_counted.parquet
+2025-03-02 15:09:48,894 - __main__ - INFO - Calculating rankings (ignoring duplicates)
+2025-03-02 15:09:49,350 - __main__ - INFO - Saved 500 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/post_duplication_rankings_duplications_not_counted.parquet
+2025-03-02 15:09:49,350 - __main__ - INFO - Generating human-readable rankings dataset
+2025-03-02 15:09:49,355 - __main__ - INFO - Saved 500 rows to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/human_readable_rankings.parquet
+2025-03-02 15:09:49,355 - __main__ - INFO - Generated 10000 geographical locations
+2025-03-02 15:09:49,356 - __main__ - INFO - Generated 1010787 detection events (including duplicates)
+2025-03-02 15:09:49,397 - __main__ - INFO - Number of unique detection_oid values: 999974
+2025-03-02 15:09:49,397 - __main__ - INFO - Files generated:
+2025-03-02 15:09:49,397 - __main__ - INFO -   1. camera_detection_events.parquet (Dataset A)
+2025-03-02 15:09:49,397 - __main__ - INFO -   2. geographical_locations.parquet (Dataset B)
+2025-03-02 15:09:49,397 - __main__ - INFO -   3. pre_duplication_rankings.parquet
+2025-03-02 15:09:49,397 - __main__ - INFO -   4. post_duplication_rankings_duplications_counted.parquet
+2025-03-02 15:09:49,397 - __main__ - INFO -   5. post_duplication_rankings_duplications_not_counted.parquet
+2025-03-02 15:09:49,397 - __main__ - INFO -   6. human_readable_rankings.parquet
+2025-03-02 15:09:49,398 - __main__ - INFO - Final verification for location 10:
+2025-03-02 15:09:49,399 - __main__ - INFO -   Pre-duplication top item: person
+2025-03-02 15:09:49,399 - __main__ - INFO -   Post-duplication top item (duplications counted): car
+2025-03-02 15:09:49,399 - __main__ - INFO -   Post-duplication top item (duplications not counted): person
+2025-03-02 15:09:49,399 - __main__ - INFO -   SUCCESS: Duplication changed ranking as expected
+2025-03-02 15:09:49,400 - __main__ - INFO -   Counts:
+2025-03-02 15:09:49,400 - __main__ - INFO -     'car' (with duplications): 7804
+2025-03-02 15:09:49,400 - __main__ - INFO -     'person' (without duplications): 7704
+2025-03-02 15:09:49,401 - __main__ - INFO - Final verification for location 20:
+2025-03-02 15:09:49,401 - __main__ - INFO -   Pre-duplication top item: person
+2025-03-02 15:09:49,401 - __main__ - INFO -   Post-duplication top item (duplications counted): car
+2025-03-02 15:09:49,401 - __main__ - INFO -   Post-duplication top item (duplications not counted): person
+2025-03-02 15:09:49,401 - __main__ - INFO -   SUCCESS: Duplication changed ranking as expected
+2025-03-02 15:09:49,402 - __main__ - INFO -   Counts:
+2025-03-02 15:09:49,402 - __main__ - INFO -     'car' (with duplications): 7788
+2025-03-02 15:09:49,402 - __main__ - INFO -     'person' (without duplications): 7688
+2025-03-02 15:09:49,402 - __main__ - INFO - Data generation completed in 42.54 seconds
+2025-03-02 15:09:49,402 - __main__ - INFO - All files have been saved to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output
+2025-03-02 15:09:49,402 - __main__ - INFO - Log file has been saved to /home/laptop-linux-26feb/Desktop/test_github_files_v2_march/utopia_generate_sample_data/generate_sample_data/output/data_generation.log
+2025-03-02 15:09:49,402 - __main__ - INFO - ================================================================================
