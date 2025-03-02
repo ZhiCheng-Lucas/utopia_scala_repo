@@ -153,6 +153,8 @@ Note that if the location ID approach were needed instead, the current implement
 
 Since the actual datasets are not available, sample test data has been generated with the following parameters:
 
+- Repository: [Utopia Generate Sample Data](https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data)
+
 ### Dataset A Parameters
 
 - **Geographical Locations**: 50 unique locations (with IDs 1-50)
@@ -243,8 +245,5 @@ This will process the detection events and locations, calculating the top 10 mos
 
 ## Testing
 
-To run the test suite:
-
-```bash
-sbt test
-```
+For more information about the testing portion, please refer to
+[`./src/test/scala/com/utopia/analytics/test_documentaion.md`](./src/test/scala/com/utopia/analytics/test_documentaion.md)
