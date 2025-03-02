@@ -19,6 +19,8 @@ This project is divided into three logical components:
 3. **Compiled Fat JAR File**
    - Available at: [`./camera-detection-analytics-1.0.0.jar`](./camera-detection-analytics-1.0.0.jar)
 
+![High-Level Architecture Diagram](./drawio_images/Dataflow.drawio.png "Data Architecture Diagram")
+
 ## Distributed Computing Tasks II
 
 Documentation is available in [`./join.md`](./join.md).
