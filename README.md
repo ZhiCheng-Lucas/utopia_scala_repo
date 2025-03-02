@@ -2,31 +2,32 @@
 
 ## Distributed Computing Tasks I
 
-I have divided this project this two logical component.
+This project is divided into three logical components:
 
-1. Sample Data Generation. Please see {placeholder_link} for more info.
+1. **Sample Data Generation**
+   - Repository: [Utopia Generate Sample Data](https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data)
+   - Sample data available [here](https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data/tree/main/generate_sample_data/output)
 
-<https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data>
-Sample data: <https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data/tree/main/generate_sample_data/output>
+2. **Scala Repository** (Current)
+   - Generated sample data: [`./sample_datasets`](./sample_datasets)
+   - Main code: [`./src/main/scala/com/utopia/analytics/CameraDetectionAnalytics.scala`](./src/main/scala/com/utopia/analytics/CameraDetectionAnalytics.scala)
+   - Data Skew code snippet: [Link to be added]
+   - Testing Information: [`./src/test/scala/com/utopia/analytics`](./src/test/scala/com/utopia/analytics)
 
-2. Scala repo (Current)
-3. Compiled fat JAR file. Please see {placeholder_link} for more info.
-
-For the scala repo,
-I have attached several links here for easy access.
-
-- Generated sample data {placeholder_link}
-- Main code. {placeholder_link}
-- Data Skew code snippet {placeholder_link}
-- Testing Information {placeholder_link}
+3. **Compiled Fat JAR File**
+   - Available at: [`./camera-detection-analytics-1.0.0.jar`](./camera-detection-analytics-1.0.0.jar)
 
 ## Distributed Computing Tasks II
 
-Please see {placeholder_link} for the pdf
+Documentation is available in [`./join.md`](./join.md).
+
+*Note: A PDF version (`./join.pdf`) is also provided, but the markdown file is recommended for optimal formatting.*
 
 ## Data Architecture Design
 
-Please see {placeholder_link} for the pdf
+Documentation is available in [`./design.md`](./design.md).
+
+*Note: A PDF version (`./design.pdf`) is also provided, but the markdown file is recommended for optimal formatting.*
 
 ## Business Context
 
