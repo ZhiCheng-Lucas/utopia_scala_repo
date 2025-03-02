@@ -9,7 +9,7 @@ The current approach to validation relies on manually comparing the spark output
 For information about the sample data generation and comparison tools, see:
 [<https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data>](https://github.com/ZhiCheng-Lucas/utopia_generate_sample_data)
 
-Future development will include automated end-to-end integration testing to replace the current manual comparison process.
+Future development will include automated end-to-end integration testing integrated into a CI/CD pipeline using GitHub Actions, replacing the current manual comparison process.
 
 ## Overview
 
