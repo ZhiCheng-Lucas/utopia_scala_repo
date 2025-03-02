@@ -14,6 +14,7 @@ This project is divided into three logical components:
    - Data Skew code snippet: [`./data_skew.md`](./data_skew.md)
    - Testing Information: [`./src/test/scala/com/utopia/analytics`](./src/test/scala/com/utopia/analytics)
    - Regarding the requirement for flexible input parameters, please see [Runtime Configuration](#runtime-configuration) section.
+   - Note: We are currently writing results to Parquet as a single file using `coalesce(1)` for the sake of simplicity
 
 3. **Compiled Fat JAR File**
    - Available at: [`./camera-detection-analytics-1.0.0.jar`](./camera-detection-analytics-1.0.0.jar)
