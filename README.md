@@ -183,45 +183,6 @@ The main class of the application provides flexibility to configure the followin
 3. **Output path for results (Parquet File 3)** - Destination path for the generated rankings
 4. **Top X configuration** - Number of top items to be considered (e.g., setting this to 10 will return the top 10 most detected items for each location)
 
-## Evaluation Criteria
-
-The implementation will be evaluated based on:
-
-1. Proper repository structure following best practices (.gitignore, standard folder structure)
-2. Comprehensive unit and integration tests
-3. Exclusive use of Spark RDD API for transformations
-4. Adherence to clean code guidelines
-5. Effective use of design patterns and code reusability
-6. Optimization of time/space complexity and shuffle stages
-7. Documentation of design considerations and proposed Spark configurations
-8. Effective handling of data skew in specific geographical locations
-
-## Project Structure
-
-```
-utopia_spark_scala/
-├── src/
-│   ├── main/
-│   │   ├── scala/
-│   │   │   └── com/
-│   │   │       └── utopia/
-│   │   │           └── analytics/
-│   │   │               └── CameraDetectionAnalytics.scala  # Main application entry point
-│   │   └── resources/                                      # Default resources
-│   └── test/
-│       ├── scala/
-│       │   └── com/
-│       │       └── utopia/
-│       │           └── analytics/
-│       │               └── CameraDetectionAnalyticsTest.scala  # Test cases
-│       └── resources/                                          # Test data and resources
-├── build.sbt                                                   # SBT build configuration
-├── project/
-│   └── plugins.sbt                                             # SBT plugins configuration
-├── .gitignore
-└── README.md
-```
-
 ## Building the Project
 
 The project uses SBT to build a "fat JAR" that includes all dependencies:
