@@ -11,8 +11,9 @@ This project is divided into three logical components:
 2. **Scala Repository** (Current)
    - Generated sample data: [`./sample_datasets`](./sample_datasets)
    - Main code: [`./src/main/scala/com/utopia/analytics/CameraDetectionAnalytics.scala`](./src/main/scala/com/utopia/analytics/CameraDetectionAnalytics.scala)
-   - Data Skew code snippet: [Link to be added]
+   - Data Skew code snippet: [`./data_skew.md`](./data_skew.md)
    - Testing Information: [`./src/test/scala/com/utopia/analytics`](./src/test/scala/com/utopia/analytics)
+   - Regarding the requirement for flexible input parameters, please see [Runtime Configuration](#runtime-configuration) section.
 
 3. **Compiled Fat JAR File**
    - Available at: [`./camera-detection-analytics-1.0.0.jar`](./camera-detection-analytics-1.0.0.jar)
