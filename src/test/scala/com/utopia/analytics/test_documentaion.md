@@ -15,14 +15,6 @@ Future development will include automated end-to-end integration testing integra
 
 This document describes the testing approach for the Camera Detection Analytics application. The tests validate the core Spark RDD processing functionality to ensure that camera detection events are analyzed correctly.
 
-## Test Configuration
-
-The test suite is configured with special JVM parameters in the build.sbt file:
-
-- Tests run in a forked JVM for proper Spark initialization
-- JVM flags open necessary internal modules for Spark operations
-- Each test creates an isolated SparkSession to ensure test independence
-
 ## Running the Tests
 
 To run the test suite, in utopia_scala_repo:
